@@ -1,0 +1,177 @@
+<style class="cp-pen-styles">@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+ 
+*{
+margin: 0;
+padding: 0;
+}
+
+.foot {
+  height: 100vh;
+  background-color: rgba(255,255,0,0.5);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#84e8dc', endColorstr='#f4ed8b',GradientType=1 );
+}
+
+header {
+  padding: 50px 0;
+}
+header h1 {
+  color: white;
+  text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 0.4px;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 30px;
+}
+.container .thumbex {
+  margin: 10px 20px 30px;
+  width: 100%;
+  min-width: 250px;
+  max-width: 435px;
+  height: 300px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  outline: 2px solid white;
+  outline-offset: -15px;
+  background-color: blue;
+  box-shadow: 5px 10px 40px 5px rgba(0, 0, 0, 0.5);
+}
+.container .thumbex .thumbnail {
+  overflow: hidden;
+  min-width: 250px;
+  height: 300px;
+  position: relative;
+  opacity: 0.88;
+  backface-visibility: hidden;
+  transition: all 0.4s ease-out;
+}
+.container .thumbex .thumbnail img {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  height: 115%;
+  width: auto;
+  transform: translate(-50%, -50%);
+  backface-visibility: hidden;
+}
+.container .thumbex .thumbnail span {
+  position: absolute;
+  z-index: 2;
+  top: calc(150px - 20px);
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px 50px;
+  margin: 0 45px;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.2px;
+  transition: all 0.3s ease-out;
+}
+.container .thumbex .thumbnail:hover {
+  backface-visibility: hidden;
+  transform: scale(1.15, 1.15);
+  opacity: 2;
+}
+.container .thumbex .thumbnail:hover span {
+  opacity: 0;
+}
+section#contact {
+    background-color: #222222;
+    background-image: url('http://artdnaswitchbd.com/componants/images/map-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section {
+    padding: 30px 0PX;
+}
+section#contact .section-heading {
+    text-align: left;
+    color: white;
+}
+section#contact .form-group {
+  text-align: center;
+    margin-bottom: 10px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 6px;
+}
+section#contact .form-group input.form-control {
+  
+}
+section#contact .form-group textarea.form-control {
+   height: 100px;
+}
+section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+section#contact ::-webkit-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #000000;
+}
+.gellary_bg_none img{
+  width: 100%;
+  height: 250px;
+}
+section#contact :-moz-placeholder {
+    /* Firefox 18- */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #000000;
+}
+section#contact ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #000000;
+}
+section#contact :-ms-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #000000;
+}
+section#contact .text-danger {
+    color: #e74c3c;
+}
+
+.about_our_company{
+    text-align: center;
+}
+.about_our_company h1{
+    font-size: 30px;
+}
+.titleline-icon:after {
+    position: absolute;
+    top: -11px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: 'FontAwesome';
+    content: "\f141";
+    font-size: 20px;
+    line-height: 1;
+    color: #F99700;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+    height: 20px;
+    background: #ffffff;
+}
+
+</style>
